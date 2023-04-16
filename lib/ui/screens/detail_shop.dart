@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../models/shop.dart';
-import '../widgets/card_shop.dart';
-import '../manager/shop_manager.dart';
 
 class DetailShop extends StatelessWidget {
   static const routeName = '/shop-detail';

@@ -63,7 +63,7 @@ class _ShopOverviewScreenState extends State<ShopOverviewScreen> {
                 if (snapshot.connectionState == ConnectionState.done) {
                   return Container(
                       decoration: BoxDecoration(
-                          color: Color.fromARGB(142, 47, 143, 76)
+                          color: const Color.fromARGB(142, 47, 143, 76)
                               .withOpacity(0.9)),
                       child: Consumer<ShopManager>(
                         builder: (context, shopManager, child) =>
@@ -97,7 +97,7 @@ class _ShopOverviewScreenState extends State<ShopOverviewScreen> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Color.fromARGB(255, 24, 172, 43),
+        selectedItemColor: const Color.fromARGB(255, 24, 172, 43),
         onTap: _onItemTapped,
       ),
     );
